@@ -58,6 +58,7 @@ PySAGES still implements all methods and collective variables as pure python for
    trouble-shooting
    mpi
    package-pysages
+   guide-impl-cvs
 
 Indices and tables
 ==================
