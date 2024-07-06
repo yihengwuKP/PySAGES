@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 
-import jax
 import numpy as np
 import openmm.app as app
 from jax import grad
 
-from pysages.colvars.orientation import ERMSD, ERMSDCG
+from pysages.colvars.orientation import ERMSDCG
 
 pdb = app.PDBFile("../../../inputs/GAGA.box_0mM.pdb")
 basetype2selectedAA = {
